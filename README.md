@@ -5,4 +5,8 @@ adding
 adding
 adding someting to in 235
 235
-235
+Explaining Merge Conflict
+
+
+Adding something
+
