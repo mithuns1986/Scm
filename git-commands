@@ -45,4 +45,32 @@ git config --global user.email "mithuns@live.com"
 git log
 history
 history|cut -c 8-
+git branch DEVOPS-234
+git branch
+git checkout DEVOPS-234
+rm -rf *
+git status
+git restore README.md
+git status
+git restore git-commands helloworld.py
+git status
+git checkout main
+git checkout DEVOPS-234
+rm -rf *
+git status
+git add .
+git status
+git commit -m"removed all files"
+ls
+git log
+ls
+git ls
+ls
+git log
+git log --oneline
+git revert 71268f1
+ls
+git log --oneline
+git revert e94f164
+git log --oneline
 
