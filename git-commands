@@ -1,0 +1,48 @@
+rm -rf git
+mkdir git
+cd git
+exit
+rm git
+rm -r git
+git clone https://github.com/mithuns1986/Scm.git
+cd Scm/
+ls
+cat helloworld.py
+vim helloworld.py
+git status
+git add helloworld.py
+git status
+git commit -m"Deleted line #2 & #4"
+cat helloworld.py
+python3 helloworld.py
+vim helloworld.py
+python3 helloworld.py
+git status
+git status
+git add helloworld.py
+git commit -m"Fixed the syntax issue"
+git status
+git log
+ls -la
+cd .git/
+ls
+vim config
+cd info/
+ls
+cd .
+cd ..
+ls
+vim config
+which git
+cd /mingw64/bin/git
+git config
+cd ..
+ls
+git status
+git push origin main
+git config --global user.name "DevOps"
+git config --global user.email "mithuns@live.com"
+git log
+history
+history|cut -c 8-
+
